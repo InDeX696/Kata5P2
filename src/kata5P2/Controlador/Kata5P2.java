@@ -36,8 +36,7 @@ entrada input(), de proceso process() y de salida output().
     
     void input() throws IOException, FileNotFoundException, ClassNotFoundException, SQLException {
         String fileName="emails.txt";
-        mailList = MailListReaderDDBB.read(); //Almacena los emails accediendo a una base de datos
-        //mailList=MailListReader.read(fileName); //Almacena los emails accediendo a un archivo txt
+        mailList = MailListReaderDDBB.read(); 
         
     }
     

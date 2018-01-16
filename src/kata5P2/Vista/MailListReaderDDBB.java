@@ -15,7 +15,7 @@ public class MailListReaderDDBB {
     
     public static List<Mail> read() throws FileNotFoundException, IOException, ClassNotFoundException, SQLException {
         Class.forName("org.sqlite.JDBC");
-        Connection con = DriverManager.getConnection("jdbc:sqlite:D:/Usuario/Desktop/DAVID/Universidad/IS2/Practica Lab 5/SQLiteDatabaseBrowserPortable/Data/KATA5.db");
+        Connection con = DriverManager.getConnection("jdbc:sqlite:D:/Usuario/Desktop/InDeX/Uni/IS2/Kata5/SQLiteDatabaseBrowserPortable/Data/KATA5.db");
         
         List<Mail> mailList= new ArrayList<>();
         
